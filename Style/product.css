@@ -108,7 +108,7 @@ img {
 }
 
 .btn:active{
-  background-color: green;
+  background-color: rgb(83, 173, 83);
 }
 
 .btn_img {
