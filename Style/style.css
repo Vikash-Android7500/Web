@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Slab&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Roboto+Slab&family=Roboto:wght@400&display=swap');
+
+*{
+     margin: 0%;
+     padding: 0%;
+     box-sizing: border-box;
+
+     font-family: 'Poppins', sans-serif;
+     font-family: 'Roboto', sans-serif;
+     font-family: 'Roboto Slab', serif;
+}
+
+/* color varible */
+
+:root{
+    --primary-text-color: #000000;
+    --secondary-text-color: #16171c;
+    --accent-color: #4e5dc0;
+    --accent-color-dark: #0e1e86;
+    --nav-color: #777c85;
+    --simple-text-color:white;
+}
+
+/* Wrapper class */
+.wrapper {
+     background-color: teal;
+     
+}
+
+/* all Flex */
+.flex {
+     flex-wrap: wrap;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+
+.FFlex{
+     flex-wrap: wrap;
+     display: flex;
+     justify-content: space-around;
+
+}
+
+/* Article Text-Design. */
+
+.Text-Design {
+     width: 573px;
+     height: 272px;
+     font-family: 'Raleway';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 34px;
+     color: var(--primary-text-color);
+     opacity: 0.5;
+     
+}
+
+/* Article paragraph-Text */
+.para{
+     position: relative;
+     top: 16%;
+     bottom: 0%;
+     left: 0%;
+     right: 0%;
+}
+
+
+/* unrefresh class */
+
+h2 {
+    font-family: 'Roboto Flex';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 45px;
+    font-stretch: 100;
+     font-variation-settings: 'GRAD' 122,
+      'slnt' 0,
+       'XTRA' 603,
+        'XOPQ' 96,
+         'YOPQ' 100,
+          'YTLC' 514,
+           'YTUC' 712,
+            'YTAS' 750,
+             'YTDE' -203,
+              'YTFI' 738;
+}
+
+
+/* -----------------Start Navgation-------------------- */
+.UL {
+     list-style: none;
+}
+
+.Top-logo {
+     width: 98px;
+     height: 82px;
+     padding: 8px;
+}
+
+.menu-first {
+     text-decoration: underline;
+   
+}
+
+.menu-link {
+     color: var(--nav-color);
+}
+
+li a {
+     text-decoration: none;
+     font-family: 'Raleway';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 18px;
+     line-height: 20px;
+}
+
+.top-right-btn {
+     width: 165px;
+     height: 54px;
+     border: none;
+     border-radius: 5px;
+     font-family: 'Raleway';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 24px;
+     color: var(--simple-text-color);
+     background-color: var(--accent-color);
+
+}
+/* ----------------------END Navigation---------------- */
+
+ /* -------------------Fist article---------------------- */
+
+
+ article{
+     margin-top: 32px;
+     margin-bottom: 32px;
+ }
+
+
+ .fist-img img{
+     width: 570px;
+     height: 427px;
+     border-radius: 30px;
+ }
+
+ /* ---------------------Second Article---------------------  */
+
+ .second-article{
+     margin-top: 64px;
+        
+ }
+
